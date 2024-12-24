@@ -1,122 +1,124 @@
 export const moviesData = [
-	{
-		id: 1,
-		title: "Her",
-		rate: 4,
-		description:
-			"In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
-		posterUrl:
-			"https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_.jpg",
-		trailer: "https://www.youtube.com/embed/6QRvTv_tpw0",
-	},
-	{
-		id: 2,
-		title: "The Lobster",
-		rate: 3,
-		description:
-			"In a dystopian near future, single people, according to the laws of The City, are taken to The Hotel, where they are obliged to find a romantic partner in forty-five days or are transformed into beasts and sent off into The Woods.",
-		posterUrl:
-			"https://i.pinimg.com/originals/43/9b/19/439b192bedc27cfaa0ec1cc787db800d.jpg",
-		trailer: "https://www.youtube.com/embed/vU29VfayDMw",
-	},
-	{
-		id: 3,
-		title: "The Pianist",
-		rate: 5,
-		description:
-			"A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
-		posterUrl:
-			"https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
-		trailer: "https://www.youtube.com/embed/BFwGqLa_oAo",
-	},
-	{
-		id: 4,
-		title: "Avengers: Endgame",
-		rate: 1,
-		description:
-			"After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
-		posterUrl:
-			"https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
-		trailer: "https://www.youtube.com/embed/TcMBFSGVi1c",
-	},
-	{
-		id: 5,
-		title: "Gangs of New York",
-		rate: 3,
-		description:
-			"In 1862, Amsterdam Vallon returns to the Five Points area of New York City seeking revenge against Bill the Butcher, his father's killer.",
-		posterUrl:
-			"https://img7.cdn.cinoche.com/images/14aa038469eaf2ca96dbc3da4182428c.jpg",
-		trailer: "https://www.youtube.com/embed/qHVUPri5tjA",
-	},
-	{
-		id: 6,
-		title: "Inheritance",
-		rate: 3,
-		description:
-			"A patriarch of a wealthy and powerful family suddenly passes away, leaving his daughter with a shocking secret inheritance that threatens to unravel and destroy the family.",
-		posterUrl:
-			"https://i1.wp.com/setthetape.com/wp-content/uploads/2020/06/Inheritance-POSTER.jpg?resize=225%2C300&ssl=1",
-		trailer: "https://www.youtube.com/embed/bkaWQ5HlE5U",
-	},
-	{
-		id: 7,
-		title: "The Fountain",
-		rate: 4,
-		description:
-			"As a modern-day scientist, Tommy is struggling with mortality, desperately searching for the medical breakthrough that will save the life of his cancer-stricken wife, Izzi.",
-		posterUrl:
-			"https://upload.wikimedia.org/wikipedia/en/e/ee/Fountain_poster_1.jpg",
-		trailer: "https://www.youtube.com/embed/m8IlyFCbNZg",
-	},
-	{
-		id: 8,
-		title: "Spotlight",
-		rate: 4,
-		description:
-			"The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.",
-		posterUrl:
-			"https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_.jpg",
-		trailer: "https://www.youtube.com/embed/EwdCIpbTN5g",
-	},
-	{
-		id: 9,
-		title: "Avengers: Infinity War",
-		rate: 1,
-		description:
-			"The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-		posterUrl:
-			"https://play-lh.googleusercontent.com/m8oCdMmUY6qvQQmB1H6aVf1CX9CmMqQdMXD_QHk1NTV48nagvcXpkSTSLmUsfhyr_uM",
-		trailer: "https://www.youtube.com/embed/6ZfuNTqbHE8",
-	},
-	{
-		id: 10,
-		title: "The Machinist",
-		rate: 4,
-		description:
-			"An industrial worker who hasn't slept in a year begins to doubt his own sanity.",
-		posterUrl:
-			"https://upload.wikimedia.org/wikipedia/en/b/b9/The_Machinist_poster.JPG",
-		trailer: "https://www.youtube.com/embed/gxH8U_49QnU",
-	},
-	{
-		id: 11,
-		title: "Skyfall",
-		rate: 1,
-		description:
-			"James Bond's loyalty to M is tested when her past comes back to haunt her. When MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
-		posterUrl:
-			"https://m.media-amazon.com/images/M/MV5BMWZiNjE2OWItMTkwNy00ZWQzLWI0NTgtMWE0NjNiYTljN2Q1XkEyXkFqcGdeQXVyNzAwMjYxMzA@._V1_.jpg",
-		trailer: "https://www.youtube.com/embed/6kw1UVovByw",
-	},
-	{
-		id: 12,
-		title: "Parasite",
-		rate: 3,
-		description:
-			"Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
-		posterUrl:
-			"https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
-		trailer: "https://www.youtube.com/embed/SEUXfv87Wpk",
-	},
+  [
+    {
+      id: 1,
+      title: "Her",
+      rate: 4,
+      description:
+        "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/6QRvTv_tpw0",
+    },
+    {
+      id: 2,
+      title: "Inception",
+      rate: 5,
+      description:
+        "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjI1Nl5BMl5BanBnXkFtZTcwODI5OTM0Mw@@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/YoHD9XEInc0",
+    },
+    {
+      id: 3,
+      title: "The Matrix",
+      rate: 5,
+      description:
+        "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BNzQzOTk3NzAtNmZlZi00ZDI4LWI2MjItN2FmNWIyZWQzM2I5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/vKQi3bBA1y8",
+    },
+    {
+      id: 4,
+      title: "Interstellar",
+      rate: 5,
+      description:
+        "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDAtNTllOS00ZTI1LTkxNzYtZWIxNzM4Zjc4MzBiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/zSWdZVtXT7E",
+    },
+    {
+      id: 5,
+      title: "The Grand Budapest Hotel",
+      rate: 4,
+      description:
+        "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BMjIxMjgxMzM2Ml5BMl5BanBnXkFtZTgwMzQ2ODI4MDE@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/1Fg5iWmQjwk",
+    },
+    {
+      id: 6,
+      title: "Whiplash",
+      rate: 5,
+      description:
+        "A promising young drummer enrolls at a cutthroat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BMjI4NDc3NzE1Nl5BMl5BanBnXkFtZTgwODQ2NDM4MjE@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/7d_jQycdQGo",
+    },
+    {
+      id: 7,
+      title: "Parasite",
+      rate: 5,
+      description:
+        "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BYWZjMjBjODQtOTk3My00MmJjLWExN2QtZWIyZjY4MGQ0MjE3XkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/5xH0HfJHsaY",
+    },
+    {
+      id: 8,
+      title: "Joker",
+      rate: 4,
+      description:
+        "In Gotham City, mentally troubled comedian Arthur Fleck embarks on a downward spiral of social revolution and bloody crime. This path brings him face-to-face with his infamous alter-ego: Joker.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BYTYzMDZmNTktYmM1OC00ZTA5LTk5YmItYmE5NmQ4MmU3ZmNhXkEyXkFqcGdeQXVyODAzMTg2NzM@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/t433PEQGErc",
+    },
+    {
+      id: 9,
+      title: "The Social Network",
+      rate: 4,
+      description:
+        "Mark Zuckerberg creates a social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BMjIxMzYzNzcxNV5BMl5BanBnXkFtZTcwOTU0MzA3Mw@@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/lB95KLmpLR4",
+    },
+    {
+      id: 10,
+      title: "Fight Club",
+      rate: 4,
+      description:
+        "An insomniac office worker and a soap maker form an underground fight club that evolves into something much, much more.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BMmEzNTgzMzYtZmYwNS00MTY2LTg3NzEtZTZmNTBlNGNhNTkxXkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/qtRKdVHc-cE",
+    },
+    {
+      id: 11,
+      title: "Pulp Fiction",
+      rate: 5,
+      description:
+        "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BZmRkMjcyZTItNzYzNy00Yjk4LWI1NGQtZjg5NGMxNmExMmYzXkEyXkFqcGdeQXVyNDQzMDAzMTU@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/s7EdQ4FqbhY",
+    },
+    {
+      id: 12,
+      title: "The Dark Knight",
+      rate: 5,
+      description:
+        "When the menace known as the Joker emerges, he causes chaos in Gotham City, forcing Batman closer to crossing the fine line between hero and vigilante.",
+      posterUrl:
+        "https://m.media-amazon.com/images/M/MV5BNzA5ZTMzZmQtNmUxZS00YjRkLTlkNzEtZThlZTdmYWRhNmZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      trailer: "https://www.youtube.com/embed/EXeTwQWrcwY",
+    },
+  ],
 ];
